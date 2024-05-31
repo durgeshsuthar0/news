@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topnav{
+    width: 100%;
+    padding: 0px 10%;
+}
+.headernav{
+    background-color: rgb(181, 15, 15);
+    padding: 0px 10%;
+} 
+.headernav .m-auto{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#basic-nav-dropdown{
+    color: antiquewhite;
+}
+#basic-nav-dropdown:hover{
+    color: black;
+}
+.headernav #link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.headernav #link:hover{
+    border-bottom: 2px solid black;
+    color: black;
+}
+.headernav #droplink{
+    text-decoration: none;
+    color: black;
+}
+
+.navbr .title{
+    color: rgb(160, 8, 8);
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+}
+
+.mov{
+    width: 100%;
+    overflow: hidden;
+}
+.movetext{
+    width: 100%;
+    animation: RightToLeft 10s infinite linear;
+   padding-top: 20px;
+    width: 100%;
+  white-space: pre;
+  
+
+}
+@keyframes RightToLeft {
+    from{
+        transform:  translateX(0%);
+    }
+    to {
+        transform:  translateX(-50%);
+    }
+}
+.toptxt {
+    width: 100%;
+    margin-top: 20px;
+}
+.toptxt span{
+    color: rgb(215, 21, 21);
+}
+.home{
+  width: 100%;
+  padding: 0px 10%;
+}
+.card{
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.card .video{
+    width: 100%;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.cardtext{
+    font-size: 20px;
+    font-weight: 500;
+}
+.content{
+    width: 100%;
+    
+}
+
+.content span{
+    color: rgb(215, 21, 21);
+}
+
+.foot{
+    margin-top: 20px;
+}
+.footcontent .h6{
+  color: rgb(179, 30, 30);
+}
+.endtxt a{
+    color: rgb(179, 30, 30);
+    text-decoration: none;
+}
+
+.citynav{
+    background-color: rgb(137, 140, 140);
+}
+.citynav .link{
+    color: white;
+    font-size: 18px;
+}
+
+.citynav .link:hover{
+    color: black;
+}
+.citynav .droplink{
+    color: black;
+}
+
+
+
+
+
+.crd .titletxt{
+    color: red;
+}
+
+
+
+
+
+
+
+@media(max-width: 990px){
+    .card .video{
+        width: 68%;
+       
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width: 750px){
+    .card .video{
+        width: 90%;
+       
+        margin-top: 2rem;
+    }
+}
